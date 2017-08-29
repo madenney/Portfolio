@@ -20,7 +20,7 @@ function appendEmail(){
     e += "com";
     var m = 'mai';
     m += 'lto:';
-    $('#e').text(e).attr('href', `${m+=e}?subject=Position%20Available&#58;%20&body=Hi%20Donald&#44;%0A%0A%20I%20read%20your%20resume&#44;%20love%20it&#46;%20%20I%20wanted%20to%20reach%20out%20about%20an%20opportunity%20we%20have%20for%20you&#58;%0A%0A%0AThanks&#44;%0A%0A`)
+    $('#e').text(e).attr('href', `${m+=e}`)
 }
 // Appending Sensitive Information to prevent bot sniffing
 function appendPhone(){
